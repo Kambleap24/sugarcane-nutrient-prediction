@@ -422,7 +422,8 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 **Your Name**
 - GitHub: [@Kambleap24](https://github.com/Kambleap24)
 - LinkedIn: [Akash Kamble](https://linkedin.com/in/akashkamble30)
-- Email: your.email@example.com
+- Email: kambleap24.comp@coeptech.ac.in
+
 
 ## 🙏 Acknowledgments
 
