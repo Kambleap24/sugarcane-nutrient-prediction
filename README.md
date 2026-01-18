@@ -8,6 +8,10 @@ A **production-ready machine learning application** that predicts nutrient level
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg)
 
+
+<img width="1920" height="974" alt="Screenshot (429)" src="https://github.com/user-attachments/assets/a19fdeec-b006-4256-ab4a-b4d4989eda53" />
+
+
 ## 🎯 Overview
 
 This project provides:
