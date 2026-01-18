@@ -451,5 +451,3 @@ For issues, questions, or suggestions:
 ---
 
 **Made with ❤️ for sustainable agriculture**
-
-Last Updated: January 2024
