@@ -1,0 +1,91 @@
+.prediction-result-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+  animation: slideUp 0.3s ease-out;
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.nutrients-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.nutrient-card {
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.nutrient-card.deficient { background-color: #fff5f5; border-color: #feb2b2; }
+.nutrient-card.adequate { background-color: #f0fff4; border-color: #9ae6b4; }
+.nutrient-card.excess { background-color: #fffaf0; border-color: #fbd38d; }
+
+.nutrient-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #4a5568;
+  font-weight: 600;
+}
+
+.nutrient-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2d3748;
+}
+
+.nutrient-status {
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.deficient .nutrient-status { background-color: #fed7d7; color: #9b2c2c; }
+.adequate .nutrient-status { background-color: #c6f6d5; color: #276749; }
+.excess .nutrient-status { background-color: #feebc8; color: #9c4221; }
+
+.recommendations {
+  background-color: #f7fafc;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+}
+
+.recommendations h4 {
+  color: #2d3748;
+  margin-bottom: 1rem;
+}
+
+.recommendations ul {
+  padding-left: 1.5rem;
+  color: #4a5568;
+}
+
+.recommendations li {
+  margin-bottom: 0.5rem;
+}
+
+.result-metadata {
+  margin-top: 1.5rem;
+  text-align: right;
+  color: #a0aec0;
+  font-size: 0.75rem;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 1rem;
+}
